@@ -22,17 +22,16 @@ public class Assignment_10_InheritanceUI extends JFrame{
                 new Assignment_10_InheritanceUI().setVisible(true);
             }
         });
-
     }
+     
     public Assignment_10_InheritanceUI() {
         showClockUI();
     }
      
     private static String currentTime(String zone){
-      
-        return Instant.now().atZone(ZoneId.of( zone )).toString();
-        
+        return Instant.now().atZone(ZoneId.of( zone )).toString();   
     }
+    
     private static void showClockUI(){
      JFrame myFrame = new JFrame("Test GUI");
         myFrame.setVisible(true);
