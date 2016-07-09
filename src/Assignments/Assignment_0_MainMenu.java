@@ -133,8 +133,9 @@ public class Assignment_0_MainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_m_btnNumberAdditionActionPerformed
 
     private void m_btnInheritanceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_btnInheritanceActionPerformed
-        Assignment_10_InheritanceUI clockUI = new Assignment_10_InheritanceUI();
+        ClockFaceUI clockUI = new ClockFaceUI();
         clockUI.setLocationRelativeTo(null);
+        clockUI.setVisible(true);
     }//GEN-LAST:event_m_btnInheritanceActionPerformed
 
    
